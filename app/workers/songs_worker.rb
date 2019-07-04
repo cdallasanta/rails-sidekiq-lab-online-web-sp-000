@@ -1,5 +1,5 @@
 class SongsWorker
-  include 'csv'
+  require 'csv'
   include Sidekiq::Worker
 
 
